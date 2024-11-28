@@ -4,6 +4,10 @@
     }
     .footer-bottom-girl {
         left: 5%;
+        max-width: 25%;
+    }
+    .contact-image{
+        padding: 120px;
     }
     
 }
@@ -93,6 +97,12 @@
     .landing-preview-item .image {
         height: 400px;
     }
+    .footer-contact  h3{
+        font-size: 12px;
+    }
+    .footer-contact  a{
+        font-size: 12px;
+    }
     
 }
 
@@ -128,6 +138,7 @@
 }
 
 @media only screen and (max-width: 480px) {
+    
     .service-item {
         width: 100%;
     }
@@ -195,5 +206,6 @@
     .landing-preview-item .image {
         height: 300px;
     }
+ 
     
 }
